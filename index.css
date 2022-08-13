@@ -6,8 +6,29 @@ body{
     align-items: center;
 }
 .carousel{
- max-width: 600px;  
- position: relative; 
+    max-width: 600px;  
+    position: relative; 
+
+
+}
+.dot-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    top:50%;
+    transform: translateY(-100%);
+}
+
+.Dot{
+    border-radius: 50%;
+    background-color: rgb(64, 0, 255);
+    width: 12px;
+    height: 12px;
+    margin: 15px;
+}
+.image-dot{
+    background-color: rgb(113, 113, 113);
 }
 .carousel-item img{
     max-width: 100%;
@@ -18,11 +39,7 @@ body{
 .carousel-item-visible{
     display: block;
     animation: transitionFrames 0.6s;
-
-
-
 }
-
 .carousel-actions{
     position: absolute; 
     top: 50%;
@@ -30,7 +47,6 @@ body{
     display: flex;
     justify-content: space-between;
     width: 100%;
-
 }
 .carousel-actions button{
     width: 40px;
@@ -58,10 +74,6 @@ margin-left: 10px;
     margin-right: 10px;
 }
 @keyframes transitionFrames {
-    0%{
-        opacity: 0%;
-    }
-    100%{
-        opacity: 100%;
-    }
+    0%{ opacity: 0%;}
+    100%{ opacity: 100%;}
 }
