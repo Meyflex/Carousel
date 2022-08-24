@@ -31,7 +31,7 @@
 ![image](https://user-images.githubusercontent.com/98128042/184510463-7a3fca6e-9dbc-4b01-9813-01ad3380f34b.png)
 
 
-* Ce project est fait afin  de s'ameliorer et maitriser le Html CSS,JavaScript.C'est un courasel. clickez <a name="general-info" href="https://meyflex.github.io/Carousel
+* Ce project est fait afin  de s'ameliorer et maitriser le Html CSS,JavaScript.C'est un carousel. clickez <a name="general-info" href="https://meyflex.github.io/Carousel
 ">ici </a> pour acceder au site.
 
 
@@ -66,7 +66,7 @@ Pour mettre en place une copie locale et la faire fonctionner, suivez les étape
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Pouvoir les differentes photos des autres.
+un carousel automatique pour une page d acceuil.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
