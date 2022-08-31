@@ -59,6 +59,8 @@ Pour mettre en place une copie locale et la faire fonctionner, suivez les étape
    ```sh
    git clone https://github.com/meyflex/Carousel.git
    ```
+2. have a fun changing the images to the right size :)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
