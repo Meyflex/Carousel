@@ -48,7 +48,7 @@ body{
     justify-content: space-between;
     width: 100%;
 }
-.carousel-actions button{
+.carousel-actions button    {
     width: 40px;
     height: 40px;
     font-weight: 600;
@@ -56,15 +56,15 @@ body{
     border: none;
     background-color: whitesmoke;
     border-radius: 50%;
+    transition: all 0.3s;
+    transform: scale(1);
 }
-.carousel-actions button:hover{
+.carousel-actions button:hover, .carousel-actions button:active{         
     font-size: 20px;
     opacity: 0.5;
+    transform: scale(1.1);
 }
-.carousel-actions button:active{
-    font-size: 20px;
-    opacity: 1;
-}
+
 
 
 .carousel-actions #carousel-button-prev{
